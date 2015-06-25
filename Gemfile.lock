@@ -1,3 +1,12 @@
+GIT
+  remote: git@github.com:roidrage/lograge.git
+  revision: 44a5e8c3cd85bf612b7db708734ed39164648a22
+  specs:
+    lograge (0.3.3)
+      actionpack (>= 3)
+      activesupport (>= 3)
+      railties (>= 3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -72,10 +81,6 @@ GEM
       railties (>= 4.2.0)
       thor (>= 0.14, < 2.0)
     json (1.8.3)
-    lograge (0.3.0)
-      actionpack (>= 3)
-      activesupport (>= 3)
-      railties (>= 3)
     loofah (2.0.2)
       nokogiri (>= 1.5.9)
     mail (2.6.3)
@@ -164,7 +169,7 @@ DEPENDENCIES
   devise
   jbuilder (~> 2.0)
   jquery-rails
-  lograge
+  lograge!
   rails (= 4.2.0)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)

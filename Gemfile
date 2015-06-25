@@ -43,5 +43,5 @@ group :development, :test do
   gem 'spring'
 end
 
-gem 'lograge'
+gem 'lograge', git: "git@github.com:roidrage/lograge.git"
 gem 'devise'
